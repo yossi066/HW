@@ -1,9 +1,5 @@
 import requests
 
-
-def fahrenheitTOcelsius(f_temp):
-    return ((f_temp - 32) * (5/9))
-
 def getCityPos(cityName):
     g_address = 'http://maps.googleapis.com/maps/api/geocode/json?address='
     city_info = requests.get(g_address+cityName )
