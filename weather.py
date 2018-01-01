@@ -26,5 +26,5 @@ def getTemperature(lat,lng):
 cityName = input('Enter your city : ')
 lat,lng = getCityPos(cityName)
 timeZone,temperature= getTemperature(lat,lng)
-print ('You time zone is : '+ timeZone)
-print ('You temperature is : '+ temperature + ' celsius')
+print ('Your time zone is : '+ timeZone)
+print ('Your temperature is : '+ temperature + ' celsius')
